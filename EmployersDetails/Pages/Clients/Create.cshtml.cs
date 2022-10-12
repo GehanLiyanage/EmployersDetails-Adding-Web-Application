@@ -30,7 +30,7 @@ namespace EmployersDetails.Pages.Clients
 
             try
             {
-                string connectionString = "Data Source=GEHAN-PC\\SQLEXPRESS;Initial Catalog=EmployersDB;Integrated Security=True";
+                String connectionString = "Data Source=GEHAN-PC\\SQLEXPRESS;Initial Catalog=EmployersDB;Integrated Security=True";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
